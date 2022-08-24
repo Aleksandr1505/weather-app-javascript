@@ -19,16 +19,15 @@
     <div class="container">
       <div class="card">
         <div class="search">
-          <input class="search__input" type="text" />
-          <button class="search__button" type="button">Search</button>
+          <input class="search__input" type="text" placeholder="Enter location" />
+          <button class="search__button" type="button">
+            <svg class="search__button--icon">
+              <use href="images/sprite-icon.svg#search-icon"></use>
+            </svg>
+          </button>
         </div>
         <div class="weather">
-          <p class="location">Weather in Toronto, Canada</p>
-          <p class="temp">Temperature: 29</p>
-          <div class="icon"></div>
-          <p class="descripion">Cloudy</p>
-          <p class="humidity">Humidity: 50%</p>
-          <p class="wind">Wind speed: 6.2 km/h</p>
+          <h2 class="weather__title">Please, enter location to find out current weather.</h2>
         </div>
       </div>
     </div>
